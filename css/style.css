@@ -83,7 +83,7 @@ a:hover, #menu .current {
 
 #content {
 	width: 590px;
-	margin: 0 auto;
+	margin: 0 auto 7px auto;
 }
 
 .red-headline {
@@ -95,7 +95,7 @@ a:hover, #menu .current {
 
 #social {
 	width: 300px;
-	margin: 0 auto;
+	margin: 15px auto 0;
 }
 
 #social li {
@@ -129,4 +129,12 @@ a:hover, #menu .current {
 
 #linkedin {
 	background: url(../images/linkedin.png) no-repeat;
+}
+
+#footer {
+	padding-bottom: 30px;
+}
+
+#footer p {
+	color: #a03131;
 }
