@@ -22,6 +22,10 @@ a {
 	text-decoration: none;
 }
 
+a:hover, #menu .current {
+	text-decoration: underline;
+}
+
 #wrapper {
     width: 960px;
     margin: 0 auto;
@@ -65,10 +69,6 @@ a {
 	color: #ff1600;
 }
 
-#menu .current, #menu ul li a:hover {
-	text-decoration: underline;
-}
-
 #menu .phone {
 	float: right;
 	margin-right: 30px;
@@ -100,9 +100,33 @@ a {
 
 #social li {
 	text-align: left;
+	height: 39px;
+	padding-left: 60px;
+	padding-top: 4px;
+	padding-bottom: 4px;
 }
 
 #social li a {
 	font-size: 18px;
 	font-weight: bold;
+}
+
+#facebook {
+	background: url(../images/facebook.png) no-repeat;
+}
+
+#twitter {
+	background: url(../images/twitter.png) no-repeat;
+}
+
+#rss {
+	background: url(../images/rss.png) no-repeat;
+}
+
+#dribble {
+	background: url(../images/dribble.png) no-repeat;
+}
+
+#linkedin {
+	background: url(../images/linkedin.png) no-repeat;
 }
