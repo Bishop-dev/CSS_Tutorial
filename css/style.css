@@ -22,7 +22,7 @@ a {
 	text-decoration: none;
 }
 
-a:hover, #menu .current {
+a:hover {
 	text-decoration: underline;
 }
 
@@ -50,7 +50,7 @@ a:hover, #menu .current {
 
 #menu ul {
 	padding-left: 40px;
-	padding-top: 23px;
+	padding-top: 25px;
 	overflow: hidden;
 }
 
@@ -63,6 +63,13 @@ a:hover, #menu .current {
 #menu ul li a {
 	color: #ffffff;
 	margin-right: 40px;
+	display: block;
+	line-height: 1;
+}
+
+#menu ul li a:hover, #menu .current {
+	text-decoration: none;
+	border-bottom: 2px solid #ffffff;
 }
 
 #menu ul li span {
@@ -72,6 +79,7 @@ a:hover, #menu .current {
 #menu .phone {
 	float: right;
 	margin-right: 30px;
+	line-height: 1;
 }
 
 .divider {
